@@ -5,18 +5,32 @@ import { NgModule } from '@angular/core';
 
 import { AppComponent } from './app.component';
 import { AccessComponent } from './access/access.component';
+import { ProductListComponent } from './product-list/product-list.component';
+import { AccountListComponent } from './account-list/account-list.component';
+import { OrderListComponent } from './order-list/order-list.component';
+import { InvoiceListComponent } from './invoice-list/invoice-list.component';
+import { HomeComponent } from './home/home.component';
 
 
 @NgModule({
   declarations: [
     AppComponent,
-    AccessComponent
+    AccessComponent,
+    ProductListComponent,
+    AccountListComponent,
+    OrderListComponent,
+    InvoiceListComponent,
+    HomeComponent
   ],
   imports: [
     BrowserModule,
     RouterModule.forRoot([
-      { path: '', redirectTo: 'access', pathMatch: 'full' },
-      { path: 'access', component: AccessComponent }
+      { path: '', redirectTo: 'home', pathMatch: 'full' },
+      { path: 'home', component: HomeComponent },
+      { path: 'orders', component: OrderListComponent },
+      { path: 'invoices', component: InvoiceListComponent },
+      { path: 'accounts', component: AccountListComponent },
+      { path: 'products', component: ProductListComponent }
     ])
   ],
   providers: [],
