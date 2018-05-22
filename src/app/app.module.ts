@@ -10,6 +10,7 @@ import { AccountListComponent } from './account-list/account-list.component';
 import { OrderListComponent } from './order-list/order-list.component';
 import { InvoiceListComponent } from './invoice-list/invoice-list.component';
 import { HomeComponent } from './home/home.component';
+import { ReportsComponent } from './reports/reports.component';
 
 
 @NgModule({
@@ -20,7 +21,8 @@ import { HomeComponent } from './home/home.component';
     AccountListComponent,
     OrderListComponent,
     InvoiceListComponent,
-    HomeComponent
+    HomeComponent,
+    ReportsComponent
   ],
   imports: [
     BrowserModule,
@@ -30,7 +32,8 @@ import { HomeComponent } from './home/home.component';
       { path: 'orders', component: OrderListComponent },
       { path: 'invoices', component: InvoiceListComponent },
       { path: 'accounts', component: AccountListComponent },
-      { path: 'products', component: ProductListComponent }
+      { path: 'products', component: ProductListComponent },
+      { path: 'reports', component: ReportsComponent }
     ])
   ],
   providers: [],
