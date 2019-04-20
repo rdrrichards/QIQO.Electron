@@ -24,7 +24,7 @@
     "@angular/platform-browser": "7.2.13",
     "@angular/platform-browser-dynamic": "7.2.13",
     "@angular/router": "7.2.13",
-    "core-js": "^2.5.7",
+    "core-js": "^2.6.5",
     "rxjs": "^6.4.0",
     "tslib": "^1.9.3",
     "zone.js": "^0.8.29"
@@ -41,14 +41,14 @@
     "electron": "^4.1.4",
     "jasmine-core": "~3.4.0",
     "jasmine-spec-reporter": "~4.2.1",
-    "karma": "^4.0.1",
+    "karma": "^4.1.0",
     "karma-chrome-launcher": "~2.2.0",
     "karma-coverage-istanbul-reporter": "^2.0.5",
     "karma-jasmine": "~2.0.1",
     "karma-jasmine-html-reporter": "^1.4.0",
-    "protractor": "^5.4.2",
-    "ts-node": "~8.0.3",
-    "tslint": "~5.15.0",
+    "protractor": "^6.0.0",
+    "ts-node": "~8.1.0",
+    "tslint": "~5.16.0",
     "typescript": "3.2.4"
   }
 }
