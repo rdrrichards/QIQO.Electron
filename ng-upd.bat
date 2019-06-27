@@ -7,4 +7,5 @@ CALL npm audit fix
 CALL git commit -am "post update commit"
 
 CALL npm update electron
+CALL git commit -am "post electron update commit"
 CALL npm run electron
