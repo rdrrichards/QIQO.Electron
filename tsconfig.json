@@ -16,6 +16,13 @@
     "lib": [
       "es2017",
       "dom"
-    ]
+    ],
+    "noImplicitAny": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": false,
+    "noImplicitReturns": true,
+    "noFallthroughCasesInSwitch":true,
+    "noImplicitThis": true,
+    "strictNullChecks": true
   }
 }
