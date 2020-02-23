@@ -22,6 +22,7 @@ function createWindow () {
   })
 }
 
+app.allowRendererProcessReuse = true;
 app.on('ready', createWindow)
 
 
