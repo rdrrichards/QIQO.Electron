@@ -27,14 +27,14 @@ import { ReportsComponent } from './reports/reports.component';
   imports: [
     BrowserModule,
     RouterModule.forRoot([
-      { path: '', redirectTo: 'home', pathMatch: 'full' },
-      { path: 'home', component: HomeComponent },
-      { path: 'orders', component: OrderListComponent },
-      { path: 'invoices', component: InvoiceListComponent },
-      { path: 'accounts', component: AccountListComponent },
-      { path: 'products', component: ProductListComponent },
-      { path: 'reports', component: ReportsComponent }
-    ])
+    { path: '', redirectTo: 'home', pathMatch: 'full' },
+    { path: 'home', component: HomeComponent },
+    { path: 'orders', component: OrderListComponent },
+    { path: 'invoices', component: InvoiceListComponent },
+    { path: 'accounts', component: AccountListComponent },
+    { path: 'products', component: ProductListComponent },
+    { path: 'reports', component: ReportsComponent }
+], { relativeLinkResolution: 'legacy' })
   ],
   providers: [],
   bootstrap: [AppComponent]
