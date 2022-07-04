@@ -10,7 +10,7 @@
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e",
-    "electron": "ng b && electron .",
+    "electron": "ng b --base-href ./ && electron .",
     "electron-aot": "ng b -c production && electron ."
   },
   "private": true,

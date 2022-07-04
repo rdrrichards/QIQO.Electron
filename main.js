@@ -5,7 +5,7 @@ const url = require('url')
 let win
 
 function createWindow () {
-  win = new BrowserWindow({width: 1224, height: 968})
+  win = new BrowserWindow({width: 1224, height: 968, webPreferences: { nodeIntegration: true }})
 
   // load the dist folder from Angular
   win.loadURL(url.format({
@@ -25,15 +25,10 @@ function createWindow () {
 app.allowRendererProcessReuse = true;
 app.on('ready', createWindow)
 
-
 app.on('window-all-closed', () => {
-  if (process.platform !== 'darwin') {
-    app.quit()
-  }
+  if (process.platform !== 'darwin') app.quit()
 })
 
 app.on('activate', () => {
-  if (win === null) {
-    createWindow()
-  }
+  if (win === null) createWindow()
 })
