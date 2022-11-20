@@ -34,7 +34,7 @@ import { ReportsComponent } from './reports/reports.component';
     { path: 'accounts', component: AccountListComponent },
     { path: 'products', component: ProductListComponent },
     { path: 'reports', component: ReportsComponent }
-], { relativeLinkResolution: 'legacy' })
+], {})
   ],
   providers: [],
   bootstrap: [AppComponent]
