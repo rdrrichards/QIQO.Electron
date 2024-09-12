@@ -35,7 +35,7 @@
     "@types/jasmine": "~4.3.2",
     "@types/jasminewd2": "~2.0.8",
     "@types/node": "^18.11.17",
-    "electron": "^32.0.1",
+    "electron": "^32.1.0",
     "jasmine-core": "~5.0.0",
     "jasmine-spec-reporter": "~7.0.0",
     "karma": "~6.4.0",
